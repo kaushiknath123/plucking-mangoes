@@ -6,7 +6,7 @@ class  tree {
 
         this.width = width;
         this.height = height;
-        this.image = loadImage("pictures/tree.png");
+        this.image = loadImage("tree.png");
 
         World.add(world, this.body);
     }
