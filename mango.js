@@ -12,7 +12,7 @@ class  mango {
 
         this.width = width;
         this.height = height;
-        this.image = loadImage("pictures/mango.png");
+        this.image = loadImage("mango.png");
 
         World.add(world, this.body);
     }
