@@ -8,7 +8,7 @@ const Constraint = Matter.Constraint;
 
 var img;
 function preload () {
-	img = loadImage("pictures/boy.png");
+	img = loadImage("boy.png");
 }
 function setup() {
 	createCanvas(800, 500);
