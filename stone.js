@@ -13,7 +13,7 @@ class stone {
 
         this.width = width;
         this.height = height;
-        this.image = loadImage("pictures/stone.png");
+        this.image = loadImage("stone.png");
 
         World.add(world, this.body);
     }
