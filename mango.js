@@ -22,7 +22,7 @@ class  mango {
         var pos = this.body.position;
         push();
         translate(pos.x, pos.y);
-        ImageMode(CENTER);
+        imageMode(CENTER);
         image(this.image, 0, 0, this.width, this.height);
         pop();
 
